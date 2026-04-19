@@ -1,0 +1,73 @@
+# ─── Unity auto-generated folders (huge, regenerated locally) ────────────────
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Unity adds these on assembly reload — never commit
+/[Aa]ssets/[Aa]ssetStoreTools*
+/[Aa]ssets/[Pp]lugins/[Ee]ditor/JetBrains*
+
+# ─── Auto-generated Visual Studio / Rider / IDE files ────────────────────────
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.vsconfig
+.idea/
+.utmp/
+
+# ─── Builds (APKs are huge, regenerate via Build And Run) ────────────────────
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Unity Crashlytics generated file
+crashlytics-build.properties
+
+# ─── Gradle / Android build artifacts ────────────────────────────────────────
+Temp/
+Library/PackageCache/
+
+# ─── Vuforia leftovers (runtime cache; target DBs regenerate from portal) ────
+QCAR/
+
+# ─── Vuforia bulk artifacts not specific to this TP ──────────────────────────
+# The Engine package (138MB tgz) — install via Package Manager instead
+Packages/*.tgz
+# Sample assets shipped by Vuforia (Astronaut FBX, sample scenes, ~90MB) —
+# not used by this project, can be re-imported from Vuforia Samples if needed
+Assets/SamplesResources/
+Assets/SamplesResources.meta
+
+# ─── OS junk ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ─── Secrets (don't commit API keys!) ────────────────────────────────────────
+# The Gemini API key is set in the Inspector on the GeminiClient GameObject.
+# Scene files contain it, so scrub before committing if you care:
+*.apikey
+secrets.txt

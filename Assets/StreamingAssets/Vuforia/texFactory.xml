@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="high-contrast" size="0.150000 0.108800" />
+    <ImageTarget name="starynight-1" size="0.150000 0.119205" />
+    <ImageTarget name="starynight" size="300.000000 238.410599" />
+  </Tracking>
+</QCARConfig>
